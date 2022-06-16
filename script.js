@@ -1,1 +1,1 @@
-console.log('working')
+document.getElementById("button").innerHTML = "test";
