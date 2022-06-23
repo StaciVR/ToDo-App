@@ -12,20 +12,36 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-
 }
 
-
-
-#taskInput {
-    background-color: rgba(5, 102, 199, 0.6);
+#headerBox {
+    background-color: #8EC5FC;
+    padding: 20px;
+    margin: 10%;
     border-radius: 10px;
+}
 
+#userInput {
+    background-color: rgba(250, 250, 250, 0.8);
+    border: none;
+}
+
+#taskInputBox {
+    display: flex;
+    justify-content: center;
 
 }
 
+#submitButton {
+    background-color: #E0C3FC;
+    border: none;
+    padding: 10px 30px 10px 30px;
+}
+
+#submitButton:hover {
+    background-color: #003049;
+    color: aliceblue;
+}
 
 /*#itemList {
     background-color: rgba(176, 100, 247, 0.6);
