@@ -1,26 +1,7 @@
-const userInput = document.getElementById("submitButton");
+const input = document.getElementById("userInput");
 
-userInput.addEventListener('click', function () {
+const taskList = document.getElementById("itemList");
 
-    let myVar = document.getElementById("inputTask").value;
-    listItem(myVar)
-})
-
-function listItem(param) {
-    document.getElementById("itemList").innerHTML = param
-}
-
-let myArray = [];
-
-let newTaskEntry = docuemnt.getElementById("testArray").value;
-
-let taskList = myArray.push(newTaskEntry);
-
-document.getElementById("submit").addEventListener("click", () => {
-    let myArray = [];
-
-    let newTaskEntry = docuemnt.getElementById("testArray").value;
-
-    let taskList = myArray.push(newTaskEntry);
-    Document.getElementById("testList").innerHTML = "taskList";
+document.getElementById("submitButton").addEventListener("click", () => {
+    alert(input.value);
 })

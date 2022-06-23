@@ -14,21 +14,30 @@ body {
     justify-content: center;
 }
 
+h1 {
+    margin: 10px 00px 0 20px;
+}
+
 #headerBox {
     background-color: #8EC5FC;
     padding: 20px;
     margin: 10%;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
 }
 
 #userInput {
     background-color: rgba(250, 250, 250, 0.8);
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 #taskInputBox {
     display: flex;
     justify-content: center;
+
 
 }
 
@@ -36,11 +45,15 @@ body {
     background-color: #E0C3FC;
     border: none;
     padding: 10px 30px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 #submitButton:hover {
     background-color: #003049;
     color: aliceblue;
+    transition: 0.3s;
 }
 
 /*#itemList {
