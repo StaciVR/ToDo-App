@@ -15,13 +15,14 @@ body {
 }
 
 h1 {
-    margin: 10px 00px 0 20px;
+    margin: auto;
+    padding-top: 10px;
 }
 
 #headerBox {
     background-color: #8EC5FC;
     padding: 20px;
-    margin: 10%;
+    margin: 5%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
 }
@@ -56,9 +57,34 @@ h1 {
     transition: 0.3s;
 }
 
-/*#itemList {
-    background-color: rgba(176, 100, 247, 0.6);
-    padding: 10px;
+img {
+    width: 90%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.mainBox {
+    background-color: rgba(250, 250, 250, 0.5);
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 10px;
 
-}*/
+}
+
+
+
+.itemList {
+
+    height: 35px;
+    width: 70%;
+    padding: 10px;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: rgba(250, 250, 250, 0.8);
+    border: none;
+    border-radius: 3px;
+
+}
