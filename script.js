@@ -32,8 +32,10 @@ function addNew() {
 
     document.querySelector(".itemListBox").appendChild(editBtn);
 
+    //create save button for after a task has been edited
+
     const saveBtn = document.createElement("button");
-    saveBtn.className = "editBtnStyle";
+    saveBtn.className = "saveBtnStyle";
     saveBtn.innerHTML = "save";
 
     document.querySelector(".itemListBox").appendChild(saveBtn);

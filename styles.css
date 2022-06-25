@@ -122,7 +122,7 @@ img {
 }
 
 .editBtnStyle {
-    background-color: #8EC5FC;
+    background-color: #E0C3FC;
     border: none;
     padding: 10px 30px 10px 30px;
     border-bottom-left-radius: 3px;
@@ -134,8 +134,21 @@ img {
     transition: 0.3s;
 }
 
+.saveBtnStyle {
+    background-color: #E0C3FC;
+    border: none;
+    padding: 10px 30px 10px 30px;
+
+}
+
+.saveBtnStyle:hover {
+    background-color: #003049;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
 .completeBtnStyle {
-    background-color: #8EC5FC;
+    background-color: #E0C3FC;
     border: none;
     padding: 10px 30px 10px 30px;
     border-bottom-right-radius: 3px;
