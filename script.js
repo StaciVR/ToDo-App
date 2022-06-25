@@ -19,6 +19,4 @@ function addNew() {
 
     document.querySelector(".itemListBox").appendChild(newItem);
 
-
-
 }
