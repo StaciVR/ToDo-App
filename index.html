@@ -15,21 +15,24 @@
 
 <body>
     <h1>My To Do List</h1>
+
+    <!-- header will contain the input task and button box for user to type each new task into-->
     <header id="headerBox">
         <div id="taskInputBox">
             <input id="userInput" type="text" placeholder="Type new task here">
             <button id="submitButton">Add Task</button>
         </div>
     </header>
-
+    <!--Main will contain the structure for the area where the actual to do list will form-->
     <main class="mainBox">
         <div>
+            <!-- picture for visual effect-->
             <picture>
                 <source media="max-width:1024px" srcset="images/nicola-styles-qWFMm1iRJkM-unsplash -sm.jpg">
                 <img src="images/nicola-styles-qWFMm1iRJkM-unsplash.jpg" alt="To do list image">
             </picture>
         </div>
-
+        <!-- this section will be filled with list otems through the use of javascript-->
         <div class="itemListBox">
         </div>
 
