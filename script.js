@@ -18,4 +18,7 @@ function addNew() {
     newItem.innerHTML = input.value;
 
     document.querySelector(".itemListBox").appendChild(newItem);
+
+
+
 }
