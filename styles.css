@@ -84,13 +84,14 @@ img {
     margin-top: 5%;
 
 
+
 }
 
 .itemList {
 
-    height: 35px;
+    height: auto;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin-right: 5%;
     margin-top: 2%;
     background-color: rgba(250, 250, 250, 0.8);
@@ -113,4 +114,25 @@ img {
     .itemList {
         margin: auto;
     }
+}
+
+.buttonStyle {
+    background-color: #E0C3FC;
+    border: none;
+    padding: 10px 30px 10px 30px;
+
+}
+
+.editBtnStyle {
+    background-color: #8EC5FC;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-bottom-left-radius: 3px;
+}
+
+.completeBtnStyle {
+    background-color: #8EC5FC;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-bottom-right-radius: 3px;
 }
