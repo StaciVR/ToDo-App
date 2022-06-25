@@ -61,6 +61,7 @@ function addNew() {
         removeBtn.remove();
         completeBtn.remove();
         editBtn.remove();
+        saveBtn.remove();
     })
 
     // add event listener to strike through completed tasks when done
